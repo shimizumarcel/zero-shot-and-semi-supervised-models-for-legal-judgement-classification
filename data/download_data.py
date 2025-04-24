@@ -11,7 +11,7 @@ def download_folder(folder_url, output_dir):
     """Downloads all files from a shared Google Drive folder."""
     os.makedirs(output_dir, exist_ok=True)
     os.chdir(output_dir)  # Download directly into ./data/
-    !gdown --folder "{folder_url}"
+    gdown --folder "{folder_url}"
     print(f"\nAll files downloaded to: {os.path.abspath(output_dir)}")
 
 if __name__ == "__main__":
