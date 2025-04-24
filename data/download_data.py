@@ -11,5 +11,5 @@ gdown.download_folder(
     output=OUTPUT_DIR,
     quiet=False,
     use_cookies=False,
-    remaining_ok=True  # Ignora arquivos que já existem
+    remaining_ok=True
 )
