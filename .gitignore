@@ -172,3 +172,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# =================================
+# Project-specific settings
+# =================================
+
+# Ignore downloaded data files from Drive
+/data/*.csv
+/data/*.json
+/data/*.parquet
+
+# Except the download script
+!/data/download_data.py
+
+# Data cache folders (optional)
+.cache/
