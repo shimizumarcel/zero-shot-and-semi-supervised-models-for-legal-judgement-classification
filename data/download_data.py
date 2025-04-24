@@ -9,6 +9,6 @@ def download_to_local():
     gdown.download_folder(
         url=f"https://drive.google.com/drive/folders/{FOLDER_ID}",
         output=OUTPUT_DIR,
-        quiet
+        quiet,
         use_cookies=False,
         remaining_ok=True)
