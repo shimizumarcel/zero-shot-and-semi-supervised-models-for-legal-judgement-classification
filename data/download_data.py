@@ -10,3 +10,5 @@ def download_to_local():
         url=f"https://drive.google.com/drive/folders/{FOLDER_ID}",
         output=OUTPUT_DIR,
         quiet
+        use_cookies=False,
+        remaining_ok=True)
